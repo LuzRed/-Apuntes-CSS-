@@ -1,0 +1,20 @@
+/* PROPIEDAD DE COLOR */
+/* esta propiedad sirve para asignarle un color al texto/fuente que hemos agregado en HTML5 */
+/* id="draw" || se indica #draw || porque es un selector tipo ID */
+#draw {
+    color: #ff0;
+    font-size:58px;
+    font-style:initial;
+    font-family: 'Poppins', sans-serif;
+}
+/* class="color" || se indica .color || porque es un selector tipo CLASS */
+.color  {
+    color: #00f;
+    font-size: 42px;
+    font-style: initial;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Opciones de color : RGB , HEXADECIMAL  , VALORES HSL */
+/* Valor HEXADECIMAL : anotarlo al inicio con un simbolo # siempre */
+/* Valor HEXADECIMAL : acompañado por 6 caracteres, desde el 0 hasta la f || #0<menor expresión de color #f <mayor expresión de color> */
