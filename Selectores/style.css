@@ -27,13 +27,21 @@ p.especial {
 p.texto {
     color: aquamarine;
 }
-/* SELECTORES <div> */
+/* SELECTORES: <div> */
 /* Aquí indicamos que este selector con etiquetas de DIV que contenga hijos de etiqueta <p> queremos que tenga el siguiente estilo */
 div p {
     color: crimson;
 }
-/* SELECTORES <div> || aquí gracias a "," coma, podemos concatenar + de un elemento */
 
+/* SELECTORES: <div> || aquí gracias a "," coma, podemos concatenar + de un elemento */
 div h2, div h3 {
-    color: darkred;
+    color: rgb(255, 157, 0);
 }
+
+/* SELECTOR UNIVERSAL: * || nos permite seleccionar absolutamente todos nuestros elementos de HTML */
+/* SELECTOR UNIVERSAL: * || aplica propiedades a todos aquellos elementos de HTML5 que no hayan sido definidas */
+* {
+    font-size: 24px;
+    color: black;
+}
+/* SELECTOR UNIVERSAL: * || por eso en este caso no se aplica el color de la fuente, ya que previamewnte la abiamos definido en otros elementos */
