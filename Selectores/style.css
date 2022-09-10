@@ -1,0 +1,39 @@
+/* SELECTORES */
+/* <id> >> identificador >> Podemos indicar la etiqueta de HTML5 >> en este caso H1 >> o podemos poner #nombreID*/
+/* <class=""> >> otro tipo de selector >> indicar con nombre HTML5 >> ejem. <p> >> o ponemos .nombredeCLASS  */
+body {
+    color:green;
+}
+
+h1 {
+    color:yellowgreen;
+}
+
+.texto {
+    color: blue;
+}
+
+.prueba {
+    color: brown;
+}
+p   {
+    color: black;
+}
+
+p.especial {
+    color: blueviolet;
+}
+
+p.texto {
+    color: aquamarine;
+}
+/* SELECTORES <div> */
+/* Aquí indicamos que este selector con etiquetas de DIV que contenga hijos de etiqueta <p> queremos que tenga el siguiente estilo */
+div p {
+    color: crimson;
+}
+/* SELECTORES <div> || aquí gracias a "," coma, podemos concatenar + de un elemento */
+
+div h2, div h3 {
+    color: darkred;
+}
