@@ -1,0 +1,49 @@
+/*  MARGIN
+    nor permite agregar un espacio por fuera
+    de los elementos que agregemos en HTML
+*/
+/* MARGIN:PROPIEDADES
+    margin-top: ;
+    margin-bottom: ;
+    margin-left: ;
+    margin-right: ;
+*/
+
+/*
+PADDING: ;
+genera los mismos espacios que el margin 
+pero dentro del background
+
+BORDER: ;
+genera un border fuera del background 
+en el cual podemos definir color,
+grosor del border y el estilo
+
+HEIGHT: ;
+propiedad que sirve para 
+asignar el alto al contenido 
+de nuestro background
+
+OVERFLOW: hidden | visible | scroll;
+**hidden:: sirve para ocultar el contenido
+que no entre en el espacio que hemos indicado 
+dentro de HEIGHT y WIDHT.
+**visible:: muestra el contenido
+aunque este no entre dentro de
+lo indicado en HEIGHT y WIDHT.
+**scroll::permite que nos deslicemos
+para poder visualizar todo el contido
+*/
+
+.margin {
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: chocolate;
+    margin: 15px 20px 25px 30px;
+    padding: 30PX 25PX 20PX 15px;
+    border: solid 3px black;
+    height: 85px;
+    width: 25px;
+    overflow: scroll;
+}
