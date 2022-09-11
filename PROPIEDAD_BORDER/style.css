@@ -1,0 +1,63 @@
+#encabezado {
+    font-size: 42px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:magenta;
+    border-style:solid;
+    border-color:purple; 
+    border-radius: 24px;
+    border-width: 32px; 
+}
+
+.color  {
+    font-size: 24px;
+    color: red;
+    border: 23px blue inset;
+    border-radius: 42px;
+
+}
+
+.brd1 {
+    font-size: 25px;
+    color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    border-style:solid;
+    border-color:red; 
+    border-radius: 12px;
+    border-width: 7px; 
+}
+
+/* PROPIEDAD: BORDER */
+/* Con border: podemos asignar bordes a elementos de HTML */
+/* Lo priemro será indicar el grosor;
+        border: 5px 
+
+    Lo segundo será indicar el color del border;
+        border: 5px black
+
+    Lo tercero será indicar estilo del borde que queramos que tenga ese elemnto;
+        border: 5px black dashed;
+*/
+
+/* Estilos de BORDER ;
+    
+    dotted
+    dashed
+    solid
+    double
+    groove
+    rigde
+    inset
+    outset
+    none
+    hidden
+
+Valores que se pueden aplicar a elementos 3D */
+
+/* 
+BORDER: PROPIEDADES 
+    border-style: ;
+    border-color: ; 
+    border-radius: ;
+    border-width; : 
+*/
