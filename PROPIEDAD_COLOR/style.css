@@ -13,8 +13,24 @@
     font-size: 42px;
     font-style: initial;
     font-family: 'Poppins', sans-serif;
+    border: 5px navy solid;
 }
 
 /* Opciones de color : RGB , HEXADECIMAL  , VALORES HSL */
 /* Valor HEXADECIMAL : anotarlo al inicio con un simbolo # siempre */
 /* Valor HEXADECIMAL : acompañado por 6 caracteres, desde el 0 hasta la f || #0<menor expresión de color #f <mayor expresión de color> */
+
+/* BORDER || Para agregar bordes, etiqueta border: */
+/* Estilos de BORDER ;
+    
+    dotted
+    dashed
+    solid
+    double
+    groove
+    rigde
+    inset
+    outset
+    none
+    hidden
+Valores que se pueden aplicar a elementos 3D */
