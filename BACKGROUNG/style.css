@@ -20,6 +20,7 @@
 }
 
 #title {
+    color: rgba(5, 5, 5, 0.975);
     background-image: url('monster.png');
     background-size: cover;          /* indicar tamaño de alto x ancho : 100px 100px || o con las propiedades*/
     background-repeat: repeat-y;
