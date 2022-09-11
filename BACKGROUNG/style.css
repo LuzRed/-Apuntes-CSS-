@@ -1,0 +1,67 @@
+/* Etiquetas ID se representa con numeral # */
+
+#fondo{
+    background-color: rgba(0,0,255,0.3);  /* blue with opacity */
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+
+}
+
+#t1 {
+    background-image: url('coffee.png');   /* background-image: > indicamos mediante url local donde se encuentra la img. en mi caso esta en la misma carpeta */
+    background-position: center;           /* backgroun-position: > para centrarla | izq. | derc. */
+    height: 78px;                          /* Dimensión por alto */
+    width: 800px;                          /* Dimesión por largo */
+    font-size: 42px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#title {
+    background-image: url('monster.png');
+    background-size: cover;          /* indicar tamaño de alto x ancho : 100px 100px || o con las propiedades*/
+    background-repeat: repeat-y;
+    background-position: center;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+#t2 {
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: green;
+    text-align: center;
+    border: 25px;
+    border-color: red;
+    border-radius: 23px;
+    border-width: 6px;
+    border-style: double;
+}
+
+.prfo {
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align:center;
+    border: 25px;
+    border-color: red;
+    border-radius: 30px;
+    border-width: 6px;
+    border-style: groove;
+}
+
+/* BACKGROUND: PROPIEDADES 
+    background-color: rgba (0,0,0);
+    Esta es una propiedad con rgba > permitismo pasarle una opacidad
+    O transparencia al color
+*/
+/* BACKGROUND:
+
+    background-color: ;
+    backgorund-size: auto | cover | contain  ;
+    background-repeat: repeat-y | repeat-x ;
+    background-position: top | center | ;
+*/
