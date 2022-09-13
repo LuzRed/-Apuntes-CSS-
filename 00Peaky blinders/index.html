@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/00Peaky blinders/css1/style.scss" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <title>NETFLIX</title>
+</head>
+<body>
+    <main>
+        <header>
+            <a href="#" class="logo"><img src="./img/logo.png" alt="logo netflix"></a>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Show</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">Latest</a></li>
+                <li><a href="#">My list</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Search">
+                <button class="btnbuscar"><span class="material-icons">Search</span></button>
+            </div>
+        </header>
+        <section class="banner">
+            <img src="./img/tms.jpg" alt="personaje" class="bg" />
+            <span class="sombraImg"></span>
+            <div class="content">
+                <img src="./img/logoletras.png" class="movieTitle">
+                <h4>
+                    <span>2022</span>
+                    <span><i>16+</i></span>
+                    <span>6 Temporadas</span>
+                    <span>Serie</span>
+                </h4>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur 
+                    adipisicing elit. Hic magni ad id rerum 
+                    repudiandae porro ipsum doloremque dolorem. 
+                    Voluptate sequi sapiente blanditiis doloremque
+                    mollitia odio enim placeat voluptatibus veniam natus.
+                </p>
+                <div class="buttons">
+                    <a href="#">Play</a>
+                    <a href="#">My List</a>
+                </div>
+            </div>
+            <a href="#" class="play" oneclick="toggleVideo();"><img src="./img/play.png">Watch Trailer</a>
+        </section>
+        <section class="trailer">
+            <video src="./img/trailer.mp4" controls="true"></video>
+            <img src="./img/close.png" class="closed" oneclick="toggleVideo();">
+        </section>
+    </main>
+    <script>
+        function toggleVideo(){
+            const trailer= document.querySelector(".trailer");
+            const video = document.querySelector("video");
+            trailer.classList.toggle("active");
+            video.currentTime=0;
+            video.pause();
+        }
+    </script>
+</body>
+</html>
